@@ -1,0 +1,26 @@
+<!--- index.stories.mdx -->
+
+import { Meta, Story, Canvas, ArgsTable } from '@storybook/addon-docs/blocks';
+
+import * as Component from '.';
+import * as stories from './index.stories.tsx';
+
+<Meta
+  title='Component Library/Component'
+  component={Component}
+  argTypes={{
+    
+  }}
+/>
+
+# Component
+
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat impedit ut error ea velit temporibus debitis enim possimus vitae omnis?
+
+## Basic
+
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat impedit ut error ea velit temporibus debitis enim possimus vitae omnis?
+
+<Canvas>
+  <Story name='Basic'>{stories.Basic.bind({})}</Story>
+</Canvas>
